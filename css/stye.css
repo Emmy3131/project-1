@@ -8,9 +8,28 @@ html{
 }
 .header{
     background-color: black;
+    position: relative;
+}
+.custom-shape-divider-bottom-1723820306 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
+.custom-shape-divider-bottom-1723820306 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
 
+.custom-shape-divider-bottom-1723820306 .shape-fill {
+    fill: #FFFFFF;
+}
 /****************nav-section********/
 
 .nav{
@@ -105,6 +124,8 @@ html{
 
 
 /*---------------Hero-Section-------*/
+
+
 .hero-header{
     font-size: 70px;
     padding-bottom: 20px;
@@ -326,6 +347,7 @@ html{
     padding: 30px 0;
     margin-top: 40px;
     background-color: #000;
+    position: relative;
 }
 .contact-text-box{
     
@@ -381,6 +403,25 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: rgb(20, 31, 27);
 }
+.custom-shape-divider-top-1723819613 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1723819613 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 47px;
+}
+
+.custom-shape-divider-top-1723819613 .shape-fill {
+    fill: #FFFFFF;
+}
 
 /*-------------surport-section-----------*/
 .surport-section{
@@ -405,9 +446,6 @@ input[type="submit"]:hover{
     text-align: center;
     padding-top: 20px;
 }
-
-
-
 
 /*-------------footer-section--------*/
 .footer-box{
