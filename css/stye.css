@@ -9,6 +9,7 @@ html{
 .header{
     background-color: black;
     position: relative;
+    min-height: 100vh;
 }
 .custom-shape-divider-bottom-1723820306 {
     position: absolute;
