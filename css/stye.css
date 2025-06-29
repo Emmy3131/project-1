@@ -79,7 +79,7 @@ html{
 }
 .nav-list .nav-item .nav-link{
     text-decoration: none;
-    color: #fff;
+    color: blue;
     font-size: 20px;
     padding-bottom: 5px;
 }
